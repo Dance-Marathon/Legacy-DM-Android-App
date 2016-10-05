@@ -1,0 +1,15 @@
+{
+	"eventsPath":			"https://api.apple-cloudkit.com/database/1/iCloud.com.dancemarathon.DMatUF/production/public/records/query?&ckWebAuthToken=null&ckSession=null&ckAPIToken=3465bd5840b0b5a61bfe81883156dcc3c863ea2f54ca0103212e6a1c6cae392b",
+
+	"kinteraPath":			"http://dev.floridadm.org/app/kintera.php",
+
+	"announcementsPath":	"https://api.apple-cloudkit.com/database/1/iCloud.com.dancemarathon.DMatUF/production/public/records/query?&ckWebAuthToken=null&ckSession=null&ckAPIToken=3465bd5840b0b5a61bfe81883156dcc3c863ea2f54ca0103212e6a1c6cae392b",
+
+    "websitePath":			"http://www.floridadm.org/",
+
+	"donatePath":			"http://events.dancemarathon.com/index.cfm?fuseaction=donorDrive.event&eventID=786",
+	
+	"gamePath":				"http://dev.floridadm.org/Stand/game.html",
+
+	"DMEventStartDate":		"2016-03-19 12:00:00"
+}

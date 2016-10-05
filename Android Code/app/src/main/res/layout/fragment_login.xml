@@ -1,0 +1,86 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.uf.dancemarathon.LoginFragment"
+    android:background="@color/White"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/login_margin_left"
+    android:layout_marginStart="@dimen/login_margin_left"
+    android:layout_marginRight="@dimen/login_margin_right"
+    android:layout_marginEnd="@dimen/login_margin_right"
+    android:layout_marginTop="@dimen/login_margin_top">
+  
+  <TextView 
+        android:id="@+id/username_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/username_field"
+        android:textSize="16sp"
+        android:textColor="@color/White"
+        android:paddingLeft="7dp"
+        android:paddingStart="7dp"
+        android:background="@color/dm_blue_primary"
+        />
+    
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username_label"
+        android:layout_alignStart="@+id/username_label"
+        android:layout_below="@+id/username_label"
+        android:textColor="@color/Black"
+        android:inputType="text"
+        android:textColorHint="@color/LightSlateGray"
+        />
+    
+    <TextView 
+        android:id="@+id/password_label"
+        android:text="@string/password_field"
+        android:textSize="16sp"
+        android:textColor="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_field"
+        android:layout_alignLeft="@+id/username_label"
+        android:layout_alignStart="@+id/username_label"
+        android:paddingLeft="7dp"
+        android:paddingStart="7dp"
+        android:background="@color/dm_blue_primary"/>
+    
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username_label"
+        android:layout_alignStart="@+id/username_label"
+        android:layout_below="@+id/password_label"
+        android:textColor="@color/Black"
+        android:inputType="textPassword"
+        android:textColorHint="@color/LightSlateGray"
+        />
+	
+     <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/login_button_text"
+        android:textColor="@color/White"
+        android:background="@color/dm_blue_primary"/>
+     
+     <ProgressBar 
+        android:id="@+id/login_loading_wheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"
+        android:layout_below="@+id/password_field"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

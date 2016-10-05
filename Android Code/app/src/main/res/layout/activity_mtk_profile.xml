@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.uf.dancemarathon.MtkProfile" >
+
+    <!-- Title Div -->
+    <RelativeLayout
+        android:id="@+id/kid_title_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/dm_blue_primary">
+
+        <com.uf.dancemarathon.CircleView
+            android:id="@+id/kid_pic"
+            android:layout_width = "100dp"
+            android:layout_height= "100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft = "@dimen/kidimage_marginHorizontal"
+            android:layout_marginRight = "@dimen/kidimage_marginHorizontal"
+            android:layout_marginTop="@dimen/kidimage_marginVertical"
+            android:layout_marginBottom="@dimen/kidimage_marginVertical"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/kid_pic_divider"
+            android:layout_width="4dp"
+            android:layout_height="@dimen/titlebar_height"
+            android:background="@color/White"
+            android:layout_toEndOf="@+id/kid_pic"/>
+
+        <Button
+            android:id="@+id/kid_title_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titlebar_height"
+            android:layout_toEndOf="@+id/kid_pic_divider"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@color/dm_blue_primary"
+            android:textColor="@color/White"
+            android:textSize="24sp"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+    
+
+    
+    <ScrollView
+        android:id="@+id/story_scroll_view"
+   		android:layout_width="fill_parent"
+    	android:layout_height="match_parent"
+    	android:layout_below="@+id/kid_title_div"
+    	android:fillViewport="true"
+    	android:layout_marginTop="15dp"
+    	android:paddingBottom="20dp">
+    	
+        <RelativeLayout
+            android:id="@+id/story_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp" >
+    	
+    		<TextView
+        		android:id="@+id/kid_story"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"
+        		android:layout_marginLeft="@dimen/login_margin_left"
+        		android:layout_marginRight="@dimen/login_margin_right"
+        		android:textSize="20sp"
+        		android:textColor="@color/Black" />
+   
+    	</RelativeLayout>
+	</ScrollView>
+    
+</RelativeLayout>

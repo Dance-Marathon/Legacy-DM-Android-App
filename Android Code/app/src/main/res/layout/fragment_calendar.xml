@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.uf.dancemarathon.CalendarFragment" >
+    
+    
+    <!--  Error message to show -->
+    <TextView
+        android:id="@+id/tline_load_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/timeline_load_error" 
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+    
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tline_load_error"
+        android:layout_centerHorizontal="true"
+        android:text="@string/retry"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:background="@drawable/orange_rounded_button"
+        android:visibility="gone"
+        android:onClick="retryLoad"/>
+    
+    <!-- Progress wheel and List of events -->
+    <ProgressBar 
+        android:id="@+id/progress_wheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+    
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/event_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <ListView
+	        android:id="@+id/event_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:footerDividersEnabled="true"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+	
+    <!-- Filter button -->
+    <Button
+        android:id="@+id/timeline_filter_button"
+        android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_alignParentBottom="true"
+      	android:layout_alignParentEnd="true"
+      	android:textColor="@color/White"
+      	android:text="@string/filter_button_text"
+      	android:background="@color/transBlack"
+        android:visibility="gone"/>
+    
+    <!-- Hazy foregroud for loading operations -->
+    <View 
+        android:id="@+id/hazy_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transBlack"
+        android:visibility="gone"/>
+</RelativeLayout>

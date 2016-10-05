@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+    
+    <!-- Icon Section -->
+    
+    <RelativeLayout
+   	    android:id="@+id/tlineitem_calIcon"
+   	    android:layout_width="60dp"
+   	    android:layout_height="60dp"
+   	    android:layout_alignParentStart="true"
+   	    android:layout_marginStart="7dp"
+    	android:layout_marginEnd="2dp"
+   	    android:background="@drawable/calendar_icon">
+   	    
+        <TextView 
+            android:id="@+id/tlineitem_month"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:gravity="center_horizontal|bottom"
+            android:textSize="16sp"
+            android:textColor="@color/Black"/>
+        
+         <TextView 
+            android:id="@+id/tlineitem_day"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/tlineitem_month"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|top"
+            android:textSize="12sp"
+            android:textColor="@color/Black"/>
+ 
+   	</RelativeLayout>
+    
+    <!-- Title and location section -->
+    
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/tlineitem_calIcon"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   	    android:paddingStart="8dp"
+    	android:paddingEnd="2dp">
+     	
+        <TextView
+	        android:id="@+id/tlineitem_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:textSize="17sp"
+	        android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/tlineitem_startTime"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@+id/tlineitem_title"
+            android:layout_below="@+id/tlineitem_title"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="3dp"
+            android:textSize="14sp"
+            android:textColor="@color/dm_blue_primary"/>
+    	
+
+    </RelativeLayout>
+    
+    <!-- Loading wheel for image download -->
+
+	<ProgressBar
+		android:id="@+id/progress_wheel"
+		android:layout_width="20dp"
+		android:layout_height="20dp"
+		android:indeterminateOnly="true"
+		android:layout_centerInParent="true"
+		android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:paddingEnd="7dp"
+        android:paddingStart="2dp"/>
+    
+</RelativeLayout>

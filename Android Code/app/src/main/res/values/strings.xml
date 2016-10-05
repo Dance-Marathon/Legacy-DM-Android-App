@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- PagerTab Strings -->
+    <string name="title_section1">HOME</string>
+    <string name="title_section2">CALENDAR</string>
+    <string name="title_section3">MEET THE KIDS</string>
+
+    <!-- Event Activity Strings -->
+    <string name="start_time_label">Starts: </string>
+    <string name="end_time_label">Ends: </string>
+    <string name="location_label">Location:</string>
+    <string name="description_label">Description: </string>
+    <string name="retry">Retry</string>
+    <string name="addToCal_buttontext">Add Event to Calendar</string>
+
+    <!-- Timeline Activity strings -->
+    <string name="filter_dialog_title">Filter By:</string>
+    <string name="filter_button_text">Filter</string>
+
+    <!-- Login Activity strings -->
+    <string name="login_title">Login to See Progress!</string>
+    <string name="username_field">Donor Drive Username</string>
+    <string name="password_field">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="username_hint">Kintera Username</string>
+    <string name="password_hint">Kintera Password</string>
+
+    <!-- User Activity strings -->
+    <string name="goal_label">Goal</string>
+    <string name="raised_label">Raised</string>
+    <string name="progress_label">Progress</string>
+    <string name="page_button_text">My Kintera Page</string>
+    <string name="logout">Logout</string>
+
+    <!-- Homepage Strings -->
+    <string name="dance_marathon">Dance Marathon!</string>
+    <string name="game">Game</string>
+    <string name="donate">Donate</string>
+    <string name="website">DMatUF</string>
+    <string name="header">Join us on <i>March 19&#8211;20, 2016</i> at the O\'Connell Center at UF</string>
+    <string name="announcements">Announcements</string>
+    <string name="accouncements_content">Content</string>
+    <string name="balloon">balloon</string>
+
+    <!-- Social Media Activity Strings -->
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">YouTube</string>
+    <string name="follow_facebook">Like us on Facebook!</string>
+    <string name="follow_instagram">Follow us on Instagram!</string>
+    <string name="follow_twitter">Follow us on Twitter!</string>
+    <string name="subscribe">Subscribe to our YouTube channel!</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="donate_website">http://floridadm.kintera.org/faf/search/searchParticipants.asp?ievent=1114670&amp;lis=1&amp;kntae1114670=15F87DA40F9142E489120152BF028EB2</string>
+    <string name="dm_website">http://www.floridadm.org/</string>
+    <string name="game_website">http://www.google.com</string>
+
+    <!-- Navigation Drawer List -->
+    <string-array name="navList">
+        <item>FAQs</item>
+        <item>Calendar</item>
+        <item>Twitter Feed</item>
+        <item>Meet The Kids</item>
+        <item>Our Story</item>
+        <item>Contact Us</item>
+    </string-array>
+
+    <!-- Contact Us Activity strings -->
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="cu_label1"><b>General Questions</b></string>
+    <string name="cu_label2"><b>Overalls</b></string>
+    <string name="cu_label3"><b>UF &amp; Shands OD</b></string>
+    <string name="cu_label4"><b>Check Donations</b></string>
+    <string name="cu_content1">floridadm@floridadm.org</string>
+    <string name="cu_content2">http://www.floridadm.org/overall</string>
+    <string name="cu_content3">352&#8211;265&#8211;7237\nhttps://ufhealth.org/shands-hospital-children-uf</string>
+    <string name="cu_content4"><i>CMN Attn: DM at UF</i>\nPO Box 100386 \nGainesville, FL 32610</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_faq">FAQActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_social_media">SocialMedia</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_kid">Kid</string>
+    <string name="title_activity_profile">Mtkprofile</string>
+    <string name="title_activity_xml_map_parser">XmlMapParser</string>
+    <string name="title_activity_sponsor">SponsorActivity</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_event">EventActivity</string>
+
+    <!-- Error Messages -->
+    <string name="load_error_toast">Failed to Load Data!!!</string>
+    <string name="timeline_load_error">Failed to Load Timeline</string>
+
+    <!-- More Strings -->
+    <string name="construction_fragment_string">This Page Is Under Construction!</string>
+    <string name="aboutus_title">UF Health Shands Children\'s Hospital</string>
+    <string name="app_name">UF Dance Marathon</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="event_in_progress">In Progress</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_mtk">MtkActivity</string>
+    <string name="drawer_open">Drawer is open</string>
+    <string name="drawer_close">Drawer is closed</string>
+    <string name="no_story_available">No Story Available</string>
+
+</resources>

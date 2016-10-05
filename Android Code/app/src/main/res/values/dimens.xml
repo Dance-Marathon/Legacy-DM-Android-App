@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- User Activity -->
+	<dimen name="user_title_horizontal_margin">16dp</dimen>
+	<dimen name="user_title_vertical_margin">25dp</dimen>
+	<dimen name="fundraising_field_vertical_margin">16dp</dimen>
+	<dimen name="fundraising_field_horizontal_margin">16dp</dimen>
+	
+	<!-- Login Activity -->
+	<dimen name="login_margin_top">30dp</dimen>
+	<dimen name="login_margin_right">20dp</dimen>
+	<dimen name="login_margin_left">20dp</dimen>
+	<dimen name="login_margin_bottom">20dp</dimen>
+	
+	<!-- MTK Fragment -->
+	<dimen name="kidimage_height">80dp</dimen>
+	<dimen name="kidimage_width">80dp</dimen>
+	<dimen name="mtk_text">14sp</dimen>
+	
+	<!-- Homepage Dimensions -->
+	<dimen name="heading_pic_height">200dp</dimen>
+	<dimen name="heading_pic_margin_top">-25dp</dimen>
+	<dimen name="heading_pic_margin_bottom">-25dp</dimen>
+	<dimen name="header_text_textsize">19sp</dimen>
+	<dimen name="header_text_margin_top">20dp</dimen>
+	<dimen name="header_text_padding_top">15dp</dimen>
+	<dimen name="header_text_padding_bottom">15dp</dimen>
+	<dimen name="announcements_text_margin_top">15dp</dimen>
+	<dimen name="announcements_textsize">17sp</dimen>
+	<dimen name="game_button_margin_top">40dp</dimen>
+	<dimen name="homepage_button_height">40dp</dimen>
+	<dimen name="homepage_button_width">80dp</dimen>
+	<dimen name="homepage_button_textsize">16sp</dimen>
+	<dimen name="homepage_button_margin_top">40dp</dimen>
+	<dimen name="homepage_button_margin_arb">1dp</dimen>
+	<dimen name="countdown_size">30sp</dimen>
+	<dimen name="countdown_top">10dp</dimen>
+	<dimen name="countdown_interval">7dp</dimen>
+	
+	<!-- Contact Us Dimensions -->
+	<dimen name="cu_textMargin">15dp</dimen>
+	<dimen name="cu_sectionMarginVertical">15dp</dimen>
+	<dimen name="cu_textStyle_in">17sp</dimen>
+	<dimen name="cu_labelMarginBottom">5dp</dimen>
+
+	<!-- FAQ Activity -->
+	<dimen name="faq_question_text_size">17sp</dimen>
+	<dimen name="faq_answer_text_size">17sp</dimen>
+    <dimen name="faq_question_margin_vertical">5dp</dimen>
+    <dimen name="faq_question_padding_vertical">15dp</dimen>
+    <dimen name="faq_question_padding_horizontal">5dp</dimen>
+
+	<!-- MTK Profile -->
+    <dimen name="kidimage_marginVertical">15dp</dimen>
+    <dimen name="kidimage_marginHorizontal">15dp</dimen>
+	<dimen name="titlebar_height">130dp</dimen>
+
+	<!-- Calendar Dimensions -->
+	<dimen name="event_image_height">150dp</dimen>
+	
+</resources>

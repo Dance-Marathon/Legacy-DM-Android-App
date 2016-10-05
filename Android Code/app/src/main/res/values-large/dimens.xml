@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- User Activity -->
+	<dimen name="user_title_horizontal_margin">16dp</dimen>
+	<dimen name="user_title_vertical_margin">25dp</dimen>
+	<dimen name="fundraising_field_vertical_margin">16dp</dimen>
+	<dimen name="fundraising_field_horizontal_margin">16dp</dimen>
+	
+	<!-- Login Activity -->
+	<dimen name="login_margin_top">30dp</dimen>
+	<dimen name="login_margin_right">150dp</dimen>
+	<dimen name="login_margin_left">150dp</dimen>
+	<dimen name="login_margin_bottom">20dp</dimen>
+	
+	<!-- Home Fragment -->
+	<dimen name="homepage_button_height">50dp</dimen>
+	<dimen name="homepage_button_width">120dp</dimen>
+	<dimen name="homepage_button_textsize">18sp</dimen>
+	<dimen name="headertext_margin_top">45dp</dimen>
+	<dimen name="announcements_list_height">150dp</dimen>
+	<dimen name="countdown_top">20dp</dimen>
+	<dimen name="countdown_interval">15dp</dimen>
+	
+	<!-- MTK Fragment -->
+	<dimen name="kidimage_height">96dp</dimen>
+	<dimen name="kidimage_width">96dp</dimen>
+	
+	<!-- Contact Us Dimensions -->
+	<dimen name="cu_textMargin">15dp</dimen>
+	<dimen name="cu_sectionMarginVertical">15dp</dimen>
+	
+	<!-- More Dimensions -->
+	
+</resources>

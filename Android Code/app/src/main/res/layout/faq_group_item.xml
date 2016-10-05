@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/faq_item_question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/faq_question_margin_vertical"
+        android:layout_marginBottom="@dimen/faq_question_margin_vertical"
+        android:paddingTop="@dimen/faq_question_padding_vertical"
+        android:paddingBottom="@dimen/faq_question_padding_vertical"
+        android:paddingLeft="@dimen/faq_question_padding_horizontal"
+        android:paddingRight="@dimen/faq_question_padding_horizontal"
+        android:background="@drawable/faq_question_background"
+        android:textStyle="bold"
+        android:textSize="@dimen/faq_question_text_size"
+        android:textColor="@color/dm_blue_primary"/>
+</RelativeLayout>

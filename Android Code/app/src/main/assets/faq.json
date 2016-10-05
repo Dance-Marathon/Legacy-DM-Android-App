@@ -1,0 +1,46 @@
+[
+	{
+		"Question": "If I register to dance, am I guaranteed a dancer spot at DM?", 
+		"Answer": "Not necessarily. Dancer spots are allocated based off of participation and fundraising goals set for each organization and individual."
+	},
+	{
+		"Question": "I already registered to fundraise, do I need to register to dance?", 
+		"Answer": "Yes, registering to fundraise and registering to dance are two separate things."
+	},
+	{
+		"Question":"Do I have to be a UF student to dance?",
+		"Answer":"Yes, you must be enrolled as a student during the Spring semester whenin which Dance Marathon takes place. This also applies to those registered with UF who are taking an internship in place of classes."
+	},
+	{
+		"Question":"I don’t have my DM shirt, can I still check in for spirit points?",
+		"Answer":"You must be wearing a DM shirt to check in for spirit points. The purpose of wearing the shirt is to spread awareness around campus. "
+	},
+	{
+		"Question":"Can I still dance if I am the Delegate for my organization’s team?",
+		"Answer":"Yes! "
+	},
+	{
+		"Question":"How do spirit points work?",
+		"Answer":"Spirit Points are used to keep track of each organization’s participation in our events and incentives throughout the year leading up to Dance Marathon. There is a friendly competition between teams and the winner will be announced at closing ceremonies for Dance Marathon."
+	},
+	{
+		"Question":"Who can come to the event?",
+		"Answer":"Dance Marathon 2015 is open to the public! Access to the floor, however, is limited. Dancers and Captains are welcome on the floor at all times. Each organization has a limited number of guests permitted on the floor during specified time periods."
+	},
+	{
+		"Question":"Can you visit dancers?",
+		"Answer":"Absolutely! Students can visit by going to the check-in table downstairs at Gate 2. They will need a valid Gator 1 in order to receive floor access. Non-students (including family) must check-in upstairs before entering downstairs."
+	},
+	{
+		"Question":"When are opening and closing ceremonies?",
+		"Answer":"Opening ceremonies is an introduction to what the philanthropy is all about. We welcome the Overall Team, Captains and Miracle Families as the Dancers begin their 26.2 hour journey. Closing ceremonies is the culmination of the Dancers' journey, when they sit down after standing for 26.2 hours and the eagerly awaited total is revealed!"
+	},
+	{
+		"Question":"How much money do I have to raise to be given a dancer spot?",
+		"Answer":"This varies year-by-year and is dependent on the organization. Contact your Delegate and they should be able to tell you what they estimate it will be!"
+	},
+	{
+		"Question":"What happens when someone registers to dance and isn’t given a spot?",
+		"Answer":"The money they paid for the registration fee will be allocated back to their organization’s total." 
+	}
+]

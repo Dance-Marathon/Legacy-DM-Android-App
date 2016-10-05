@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.uf.dancemarathon.HomeFragment" >
+    
+    <!-- Contains the banner image -->
+    <RelativeLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="135dp">
+
+        <!-- Heading -->
+	    <ImageView android:id="@+id/dance_marathon_header_image"
+	        android:contentDescription="@string/dance_marathon"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+            android:background="@drawable/dmtotal"/>
+
+    </RelativeLayout>
+    
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:textSize="@dimen/header_text_textsize"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:background="@color/dm_blue_primary"
+        android:gravity="center"
+        android:paddingBottom="@dimen/header_text_padding_bottom"
+        android:paddingTop="@dimen/header_text_padding_top"
+        android:layout_below="@+id/banner_container"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Announcements -->
+	<RelativeLayout
+	    android:id="@+id/announcements_section"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/header_text">
+	    <TextView
+	        android:id="@+id/announcements_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="@dimen/announcements_text_margin_top"
+	        android:text="@string/announcements"
+	        android:textColor="@color/dm_orange_secondary"
+	        android:textSize="@dimen/announcements_textsize"/>
+	    
+	    <ListView
+	        android:id="@+id/announcements_list"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_below="@+id/announcements_title"/>
+
+   </RelativeLayout>
+
+    <!-- Button Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/White">
+
+        <!-- Game Button -->
+        <Button
+            android:id="@+id/game"
+            android:layout_width="@dimen/homepage_button_width"
+            android:layout_height="@dimen/homepage_button_height"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/homepage_button_margin_arb"
+            android:background="@color/dm_orange_secondary"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:text="@string/game"
+            android:textSize="@dimen/homepage_button_textsize"
+            android:onClick="openLink" />
+
+        <!-- DM Webpage Button -->
+        <Button
+            android:id="@+id/website"
+            android:layout_width="@dimen/homepage_button_width"
+            android:layout_height="@dimen/homepage_button_height"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/homepage_button_margin_arb"
+            android:layout_marginBottom="@dimen/homepage_button_margin_arb"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/dm_orange_secondary"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:text="@string/website"
+            android:textSize="@dimen/homepage_button_textsize"
+            android:onClick="openLink" />
+
+        <!-- Donate Button -->
+        <Button android:id="@+id/donate"
+                android:layout_width="@dimen/homepage_button_width"
+                android:layout_height="@dimen/homepage_button_height"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/homepage_button_margin_arb"
+                android:background="@color/dm_orange_secondary"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:text="@string/donate"
+                android:textSize="@dimen/homepage_button_textsize"
+                android:onClick="openLink" />
+    </LinearLayout>
+
+        
+</RelativeLayout>
