@@ -40,15 +40,16 @@ import java.text.DateFormat;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import android.view.View;
 
 
 public class HomeActivity extends AppCompatActivity
 {
 
     // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
-    InfoHolder ih = new InfoHolder();
-    private final String TWITTER_KEY = ih.getKey();
-    private final String TWITTER_SECRET = ih.getSecret();
+    //InfoHolder ih = new InfoHolder();
+    private final String TWITTER_KEY = "1";//ih.getKey();
+    private final String TWITTER_SECRET = "1"; //ih.getSecret();
 
 	private DrawerLayout mDrawerLayout;
 	private ListView mDrawerList;
