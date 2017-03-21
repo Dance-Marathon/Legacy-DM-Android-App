@@ -66,6 +66,7 @@
         <item>Meet The Kids</item>
         <item>Our Story</item>
         <item>Contact Us</item>
+        <item>Chat</item>
     </string-array>
 
     <!-- Contact Us Activity strings -->
@@ -111,5 +112,6 @@
     <string name="drawer_open">Drawer is open</string>
     <string name="drawer_close">Drawer is closed</string>
     <string name="no_story_available">No Story Available</string>
+    <string name="title_activity_chat">ChatActivity</string>
 
 </resources>
