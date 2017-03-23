@@ -51,6 +51,9 @@ public class HomeActivity extends AppCompatActivity
     private final String TWITTER_KEY = "1";//ih.getKey();
     private final String TWITTER_SECRET = "1"; //ih.getSecret();
 
+    private final String TWITTER_KEY = "";
+    private final String TWITTER_SECRET = "";
+
 	private DrawerLayout mDrawerLayout;
 	private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
