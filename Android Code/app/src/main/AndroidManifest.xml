@@ -40,58 +40,58 @@
         </activity>
         <activity
             android:name=".UserActivity"
-            android:label="@string/title_activity_user"></activity>
+            android:label="@string/title_activity_user" />
         <activity
             android:name=".EventActivity"
-            android:label="@string/title_activity_event"></activity>
+            android:label="@string/title_activity_event" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
         <activity
             android:name=".MtkProfile"
-            android:label="@string/title_activity_profile"></activity>
+            android:label="@string/title_activity_profile" />
         <activity
             android:name=".SponsorActivity"
-            android:label="@string/title_activity_sponsor"></activity>
+            android:label="@string/title_activity_sponsor" />
 
         <service
             android:name=".NotificationService"
             android:enabled="true"
-            android:exported="false"></service>
+            android:exported="false" />
 
         <activity
             android:name=".ContactUsActivity"
-            android:label="@string/title_activity_contact_us"></activity>
+            android:label="@string/title_activity_contact_us" />
         <activity
             android:name=".FAQActivity"
-            android:label="@string/title_activity_faq"></activity>
+            android:label="@string/title_activity_faq" />
         <activity
             android:name=".AboutActivity"
-            android:label="@string/title_activity_about"></activity>
+            android:label="@string/title_activity_about" />
         <activity
             android:name=".SocialMediaActivity"
-            android:label="@string/title_activity_social_media"></activity>
+            android:label="@string/title_activity_social_media" />
         <activity
             android:name=".GameActivity"
             android:label="@string/title_activity_game"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <service
             android:name=".AnnouncementService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_map"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CalendarActivity"
             android:label="@string/title_activity_calendar"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MtkActivity"
-            android:label="@string/title_activity_mtk"></activity>
+            android:label="@string/title_activity_mtk" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -99,7 +99,14 @@
 
         <activity
             android:name=".ChatActivity"
-            android:label="@string/title_activity_chat"></activity>
+            android:label="@string/title_activity_chat" />
+        <activity android:name=".PostChatActivity"
+            android:parentActivityName=".ChatActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PostChatActivity" />
+        </activity>
     </application>
 
 </manifest>

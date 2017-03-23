@@ -1,7 +1,9 @@
 package com.uf.dancemarathon;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.View;
 import android.widget.ListView;
 
 public class ChatActivity extends Activity {
@@ -18,4 +20,12 @@ public class ChatActivity extends Activity {
 
     }
 
+    /** Called when the user taps the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, PostChatActivity.class);
+        startActivity(intent);
+
+    }
 }
+

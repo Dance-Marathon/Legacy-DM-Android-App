@@ -113,5 +113,6 @@
     <string name="drawer_close">Drawer is closed</string>
     <string name="no_story_available">No Story Available</string>
     <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_post_chat">PostChatActivity</string>
 
 </resources>
